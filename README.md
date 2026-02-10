@@ -12,54 +12,39 @@
   <img src="https://img.shields.io/badge/Focus-Data%20Cleaning%20%26%20Visualization-blue" />
 </p>
 
-A collection of data science notebooks focused on data cleaning, preprocessing, and visual exploration of datasets.
+A collection of data science notebooks focused on **data cleaning, preprocessing, and exploratory data analysis (EDA)** using real-world datasets.
 
-Built as part of **Daily Code 2026**, emphasizing hands-on data workflows, reproducibility, and clear analytical thinking.
-
----
-
-## 📑 Contents
-
-- Overview
-- Objectives
-- Notebooks
-- Workflow
-- Concepts Practiced
-- Project Structure
-- Getting Started
-- Tech Stack
-- Notes
-- Author
+This project is developed as part of **Daily Code 2026**, with an emphasis on hands-on learning, reproducibility, and clear analytical thinking.
 
 ---
 
 ## 📌 Overview
 
-This repository contains exploratory and data-cleaning–focused Jupyter notebooks that demonstrate practical approaches to preparing and understanding datasets.
+This repository contains Jupyter notebooks that demonstrate practical approaches to preparing, cleaning, and understanding datasets before modeling or deployment.
 
-Each notebook represents a focused learning exercise rather than a fully polished production pipeline.
+Each notebook focuses on a specific learning objective rather than a full production-ready pipeline.
 
 ---
 
 ## 🎯 Objectives
 
-- Practice real-world data cleaning techniques
-- Perform exploratory data analysis (EDA)
-- Create meaningful visual representations of data
-- Build reproducible and readable notebooks
-- Strengthen fundamentals of Python-based data analysis
+- Practice real-world data cleaning techniques  
+- Perform exploratory data analysis (EDA)  
+- Visualize datasets to uncover trends and patterns  
+- Build readable and reproducible Jupyter notebooks  
+- Strengthen Python-based data analysis fundamentals  
 
 ---
 
 ## 📓 Notebooks
 
-### 1. BearCart Data Cleaning
+### 1. Data Cleaning
 
-**File:** `BearCart_Data_Cleaning.ipynb`
+**File:** `Data_Cleaning.ipynb`
 
-- Inspect and clean raw datasets
-- Handle missing and inconsistent values
-- Normalize and validate data for further analysis
+- Inspect raw datasets  
+- Handle missing, duplicate, and inconsistent values  
+- Normalize and validate data for further analysis  
 
 ---
 
@@ -67,9 +52,9 @@ Each notebook represents a focused learning exercise rather than a fully polishe
 
 **File:** `VisualRepresentation.ipynb`
 
-- Explore datasets using visualization techniques
-- Generate plots and charts to identify patterns
-- Translate raw data into understandable insights
+- Explore datasets using visualization techniques  
+- Generate plots and charts to identify patterns  
+- Convert raw data into meaningful insights  
 
 ---
 
@@ -77,28 +62,27 @@ Each notebook represents a focused learning exercise rather than a fully polishe
 
 Typical steps followed across notebooks:
 
-- Data loading and inspection
-- Handling missing or invalid values
-- Data cleaning and preprocessing
-- Exploratory analysis
-- Visualization and interpretation
+1. Data loading and inspection  
+2. Handling missing or invalid values  
+3. Data cleaning and preprocessing  
+4. Exploratory data analysis (EDA)  
+5. Visualization and interpretation  
 
 ---
 
 ## 🧠 Concepts Practiced
 
-- Exploratory Data Analysis (EDA)
-- Data cleaning and preprocessing
-- Pandas DataFrame operations
-- NumPy-based computations
-- Data visualization fundamentals
+- Exploratory Data Analysis (EDA)  
+- Data cleaning and preprocessing  
+- Pandas DataFrame operations  
+- NumPy-based numerical computations  
+- Data visualization fundamentals  
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-
 cleaned-data/
 ├── cleaned_order_items.csv
 ├── cleaned_orders.csv
@@ -122,47 +106,3 @@ raw-data/
 
 README.md
 requirements.txt
-
-
-```
-
-## 🚀 Getting Started
-
-### Create a virtual environment (optional)
-
-    python -m venv venv
-    source venv/bin/activate
-
-### Install dependencies
-
-    pip install -r requirements.txt
-
-### Launch Jupyter Notebook
-
-    jupyter notebook
-
----
-
-## 🛠️ Tech Stack
-
-- Python 3
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
-## 📌 Notes
-
-- Notebooks are intended to be run top-to-bottom
-- Dataset paths may need adjustment based on environment
-- This repository prioritizes learning clarity over completeness
-
----
-
-## 👤 Author
-
-Built as part of **Daily Code 2026**  
-Maintained by **Guneshbari**
